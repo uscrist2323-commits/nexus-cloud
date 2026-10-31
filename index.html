@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#100b18">
+<title>Nexus Cloud | Android na nuvem</title>
+<style>
+:root{color-scheme:dark;--bg:#0b0810;--panel:#17111f;--line:#30243b;--purple:#a855f7;--light:#d9b8ff;--muted:#a99bb5}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#32154b 0,transparent 38%),var(--bg);color:#fff;font:16px system-ui,-apple-system,Segoe UI,sans-serif}
+header{max-width:1050px;margin:auto;padding:22px 20px;display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:900;font-size:22px;letter-spacing:1px}.brand span{color:var(--purple)}
+nav a{color:#ddd;text-decoration:none;margin-left:18px;font-size:14px}
+main{max-width:1050px;margin:auto;padding:28px 20px 70px}.hero{padding:48px 28px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,#21132e,#120d19);text-align:center}
+.pill{display:inline-block;border:1px solid #7541a0;color:var(--light);padding:7px 12px;border-radius:99px;font-size:12px}
+h1{font-size:clamp(34px,7vw,58px);line-height:1.05;margin:18px 0}h1 span{color:#c084fc}
+p{color:var(--muted);line-height:1.6}.hero p{max-width:620px;margin:0 auto 24px}
+.btn{display:inline-block;background:linear-gradient(90deg,#9333ea,#a855f7);color:white;text-decoration:none;padding:13px 20px;border-radius:13px;font-weight:800;border:0;cursor:pointer}
+section{margin-top:38px}h2{font-size:25px;margin-bottom:8px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;margin-top:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:21px}.price{font-size:30px;font-weight:900;color:#d8b4fe;margin:12px 0}.card ul{padding-left:19px;color:var(--muted);line-height:1.9}
+.status{display:flex;justify-content:space-between;gap:10px;padding:14px;border-radius:12px;background:#0e0a13;margin-top:12px;color:var(--muted)}
+.notice{border:1px solid #745222;background:#21190d;color:#f5d79a;padding:14px;border-radius:12px;font-size:13px;line-height:1.5}
+footer{text-align:center;color:#776b82;border-top:1px solid var(--line);padding:25px;font-size:12px}
+@media(max-width:560px){nav a{margin-left:9px;font-size:12px}.hero{padding:36px 18px}}
+</style>
+</head>
+<body>
+<header><div class="brand">☁ NEXUS <span>CLOUD</span></div><nav><a href="#planos">Planos</a><a href="#cliente">Minha conta</a></nav></header>
+<main>
+<section class="hero">
+ <span class="pill">ANDROID NA NUVEM</span>
+ <h1>Seu Android.<br><span>Em qualquer lugar.</span></h1>
+ <p>Conheça os planos Nexus Cloud e tenha uma experiência de acesso remoto quando os serviços de máquinas virtuais estiverem conectados.</p>
+ <a class="btn" href="#planos">Conhecer planos</a>
+</section>
+<section id="planos">
+ <h2>Escolha seu plano</h2><p>Valores ilustrativos para configurar sua loja. Ainda não existe cobrança ativa.</p>
+ <div class="grid">
+  <article class="card"><span class="pill">24 HORAS</span><h3>Diário</h3><div class="price">R$ 9,90</div><p>Plano de demonstração para um dia.</p><a class="btn" href="#cliente">Tenho interesse</a></article>
+  <article class="card"><span class="pill">7 DIAS</span><h3>Semanal</h3><div class="price">R$ 29,90</div><p>Plano de demonstração para uma semana.</p><a class="btn" href="#cliente">Tenho interesse</a></article>
+  <article class="card"><span class="pill">30 DIAS</span><h3>Mensal</h3><div class="price">R$ 79,90</div><p>Plano de demonstração para um mês.</p><a class="btn" href="#cliente">Tenho interesse</a></article>
+ </div>
+</section>
+<section id="cliente">
+ <h2>Área do cliente</h2>
+ <div class="card">
+  <div class="status"><span>Status da conta</span><strong style="color:#f5d79a">Demonstração</strong></div>
+  <div class="status"><span>Plano ativo</span><strong>Não contratado</strong></div>
+  <div class="status"><span>Horas disponíveis</span><strong>0h</strong></div>
+  <p>O login, a ativação de assinatura e o botão de iniciar Android serão habilitados após a configuração de um backend e de um provedor real de Cloud Phone.</p>
+ </div>
+</section>
+<section>
+ <div class="notice"><strong>Importante:</strong> este é o site inicial do Nexus Cloud. GitHub Pages hospeda páginas estáticas; ele não cria máquinas Android, não processa Pix e não protege contas por si só. Não anuncie os planos como serviço disponível até conectar e testar um provedor real, pagamentos e backend seguro.</div>
+</section>
+</main>
+<footer>NEXUS CLOUD © 2026 · Projeto inicial</footer>
+</body></html>
